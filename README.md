@@ -45,12 +45,17 @@ All examples use the same rectangle area problem so students can compare functio
 1. Write student records to a text file
 2. Read stored records from a text file and display them
 
+### 4) Recursion Basics
+
+1. Factorial of a number using a recursive function
+
 ## Folder Structure
 
 - .vscode/: Workspace settings for running C files in VS Code
 - TypesOfFunctions/: Lesson programs on C function types
 - Structure/: Practice programs using structures (records, sorting, filtering)
 - FileHandling/: Basic programs for file input/output in C
+- Recursion/: Basic recursive programming examples
 
 ### Repository Overview (Table)
 
@@ -60,6 +65,7 @@ All examples use the same rectangle area problem so students can compare functio
 | TypesOfFunctions/ | Basic examples showing function types          |
 | Structure/        | Structure-based practice programs              |
 | FileHandling/     | Basic file handling practice in C              |
+| Recursion/        | Introductory recursion practice in C           |
 | .gitignore        | Ignores compiled binaries and build artifacts  |
 | README.md         | Project documentation                          |
 
@@ -77,6 +83,7 @@ All examples use the same rectangle area problem so students can compare functio
 | Structure/Structure.c       | Filter employee records by salary range          |
 | Structure/kathmandu.c       | Filter student records by Kathmandu address      |
 | FileHandling/filehandling.c | Store and read student records using text files  |
+| Recursion/recursion.c       | Find factorial using recursion                   |
 
 Note:
 
@@ -108,6 +115,9 @@ Examples:
 
     gcc FileHandling/filehandling.c -o FileHandling/filehandling.exe
     ./FileHandling/filehandling.exe
+
+    gcc Recursion/recursion.c -o Recursion/recursion.exe
+    ./Recursion/recursion.exe
 
 If you are using PowerShell, run executables with .\ prefix.
 
@@ -148,7 +158,8 @@ Possible future additions:
 6. Try dynamic input and condition-based output in structure04.c
 7. Compare address-filtering logic in structure01.c and kathmandu.c
 8. Practice text file I/O with filehandling.c
-9. Modify each program and test different inputs
+9. Learn recursion basics through recursion.c (factorial)
+10. Modify each program and test different inputs
 
 ## Contributing
 
