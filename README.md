@@ -1,12 +1,12 @@
 # C Programming Basics for Class 12
 
-This repository contains basic C programming examples prepared for Class 12 learners and might be helpful for others also.
+This repository contains basic C programming examples prepared for Class 12 learners and can also be helpful for other beginners.
 
 ## About This Project
 
-This is a teaching-oriented practice collection, not a full C programming course.
+This is a teaching-oriented practice collection, not a complete C programming course.
 
-The content was originally created for online classes taken by the author while studying in Class 12. Because of that, the examples are simple, focused, and designed to explain core ideas clearly to beginners.
+The content was originally created for online classes taught by the author while studying in Class 12. Because of that, the examples are simple, focused, and designed to explain core ideas clearly.
 
 ## Project Goal
 
@@ -24,7 +24,7 @@ At present, this repository includes:
 2. With arguments and without return value
 3. Without arguments and with return value
 
-All examples use the same rectangle area problem so students can compare function styles without changing problem complexity.
+All examples use the same rectangle area problem so students can compare function styles without changing the problem complexity.
 
 ### 2) Structure-Based Programs
 
@@ -51,12 +51,12 @@ Inside Structure:
 - structure01.c: Filter student records by address (KATHMANDU)
 - structure02.c: Sort books by price in ascending order
 - structure03.c: Sort student records by percentage in ascending order
-- structure04.c: Enter n student results and display GPA > 3
+- structure04.c: Enter n student results and display GPA greater than 3
 - Structure.c: Filter employee records by salary range
 
 Note:
 
-- .exe files may appear after compilation and are ignored through .gitignore.
+- .exe files may appear after compilation and are ignored by .gitignore.
 
 ## Requirements
 
@@ -69,7 +69,7 @@ From the project root:
 
     cd "C:\Users\MSI\Desktop\C Programming\Class 12"
 
-Universal command (replace `<file>` with any C file name like `01`, `02`, or `03`):
+Universal command (replace `<path/to/file.c>` and `<path/to/output.exe>` as needed):
 
     gcc <path/to/file.c> -o <path/to/output.exe>
     ./<path/to/output.exe>
