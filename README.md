@@ -68,20 +68,6 @@ All examples use the same rectangle area problem so students can compare functio
 | Structure/structure04.c | Enter dynamic student records and filter GPA > 3 |
 | Structure/Structure.c   | Filter employee records by salary range          |
 
-Inside TypesOfFunctions:
-
-- 01.c: With arguments and with return value
-- 02.c: With arguments and without return value
-- 03.c: Without arguments and with return value
-
-Inside Structure:
-
-- structure01.c: Filter student records by address (KATHMANDU)
-- structure02.c: Sort books by price in ascending order
-- structure03.c: Sort student records by percentage in ascending order
-- structure04.c: Enter n student results and display GPA greater than 3
-- Structure.c: Filter employee records by salary range
-
 Note:
 
 - .exe files may appear after compilation and are ignored by .gitignore.
