@@ -38,12 +38,19 @@ All examples use the same rectangle area problem so students can compare functio
 3. Student data sorted by percentage (ascending)
 4. Dynamic student result entry and GPA filtering
 5. Employee records filtered by salary range
+6. Student records filtered by address (ID/Class version)
+
+### 3) File Handling Basics
+
+1. Write student records to a text file
+2. Read stored records from a text file and display them
 
 ## Folder Structure
 
 - .vscode/: Workspace settings for running C files in VS Code
 - TypesOfFunctions/: Lesson programs on C function types
 - Structure/: Practice programs using structures (records, sorting, filtering)
+- FileHandling/: Basic programs for file input/output in C
 
 ### Repository Overview (Table)
 
@@ -52,21 +59,24 @@ All examples use the same rectangle area problem so students can compare functio
 | .vscode/          | VS Code workspace settings for running C files |
 | TypesOfFunctions/ | Basic examples showing function types          |
 | Structure/        | Structure-based practice programs              |
+| FileHandling/     | Basic file handling practice in C              |
 | .gitignore        | Ignores compiled binaries and build artifacts  |
 | README.md         | Project documentation                          |
 
 ### Key Program Files
 
-| Path                    | Topic                                            |
-| ----------------------- | ------------------------------------------------ |
-| TypesOfFunctions/01.c   | With arguments and with return value             |
-| TypesOfFunctions/02.c   | With arguments and without return value          |
-| TypesOfFunctions/03.c   | Without arguments and with return value          |
-| Structure/structure01.c | Filter student records by address                |
-| Structure/structure02.c | Sort books by price (ascending)                  |
-| Structure/structure03.c | Sort student records by percentage (ascending)   |
-| Structure/structure04.c | Enter dynamic student records and filter GPA > 3 |
-| Structure/Structure.c   | Filter employee records by salary range          |
+| Path                        | Topic                                            |
+| --------------------------- | ------------------------------------------------ |
+| TypesOfFunctions/01.c       | With arguments and with return value             |
+| TypesOfFunctions/02.c       | With arguments and without return value          |
+| TypesOfFunctions/03.c       | Without arguments and with return value          |
+| Structure/structure01.c     | Filter student records by address                |
+| Structure/structure02.c     | Sort books by price (ascending)                  |
+| Structure/structure03.c     | Sort student records by percentage (ascending)   |
+| Structure/structure04.c     | Enter dynamic student records and filter GPA > 3 |
+| Structure/Structure.c       | Filter employee records by salary range          |
+| Structure/kathmandu.c       | Filter student records by Kathmandu address      |
+| FileHandling/filehandling.c | Store and read student records using text files  |
 
 Note:
 
@@ -96,6 +106,9 @@ Examples:
     gcc Structure/structure04.c -o Structure/structure04.exe
     ./Structure/structure04.exe
 
+    gcc FileHandling/filehandling.c -o FileHandling/filehandling.exe
+    ./FileHandling/filehandling.exe
+
 If you are using PowerShell, run executables with .\ prefix.
 
 ## Run with VS Code Code Runner
@@ -123,7 +136,7 @@ Possible future additions:
 - Arrays and strings
 - Loops and pattern programs
 - Pointers (intro level)
-- Structures and file handling (basic)
+- Structures and file handling (advanced)
 
 ## Suggested Learning Flow
 
@@ -133,7 +146,9 @@ Possible future additions:
 4. Move to structure01.c for record input and filtering
 5. Practice sorting logic using structure02.c and structure03.c
 6. Try dynamic input and condition-based output in structure04.c
-7. Modify each program and test different inputs
+7. Compare address-filtering logic in structure01.c and kathmandu.c
+8. Practice text file I/O with filehandling.c
+9. Modify each program and test different inputs
 
 ## Contributing
 
