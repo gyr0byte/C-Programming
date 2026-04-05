@@ -50,20 +50,10 @@ From the project root:
 
     cd "C:\Users\MSI\Desktop\C Programming\Class 12"
 
-Compile and run example 1:
+Universal command (replace `<file>` with any C file name like `01`, `02`, or `03`):
 
-    gcc TypesOfFunctions/01.c -o TypesOfFunctions/01.exe
-    ./TypesOfFunctions/01.exe
-
-Compile and run example 2:
-
-    gcc TypesOfFunctions/02.c -o TypesOfFunctions/02.exe
-    ./TypesOfFunctions/02.exe
-
-Compile and run example 3:
-
-    gcc TypesOfFunctions/03.c -o TypesOfFunctions/03.exe
-    ./TypesOfFunctions/03.exe
+    gcc TypesOfFunctions/<file>.c -o TypesOfFunctions/<file>.exe
+    ./TypesOfFunctions/<file>.exe
 
 If you are using PowerShell, run executables with .\ prefix.
 
