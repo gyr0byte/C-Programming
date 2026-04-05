@@ -1,5 +1,10 @@
 # C Programming Basics for Class 12
 
+![Language](https://img.shields.io/badge/Language-C-00599C)
+![Level](https://img.shields.io/badge/Level-Beginner-2EA44F)
+![Status](https://img.shields.io/badge/Status-Learning%20Project-1F6FEB)
+![Focus](https://img.shields.io/badge/Focus-Class%2012%20Basics-F39C12)
+
 This repository contains basic C programming examples prepared for Class 12 learners and can also be helpful for other beginners.
 
 ## About This Project
@@ -39,6 +44,29 @@ All examples use the same rectangle area problem so students can compare functio
 - .vscode/: Workspace settings for running C files in VS Code
 - TypesOfFunctions/: Lesson programs on C function types
 - Structure/: Practice programs using structures (records, sorting, filtering)
+
+### Repository Overview (Table)
+
+| Folder/File       | Description                                    |
+| ----------------- | ---------------------------------------------- |
+| .vscode/          | VS Code workspace settings for running C files |
+| TypesOfFunctions/ | Basic examples showing function types          |
+| Structure/        | Structure-based practice programs              |
+| .gitignore        | Ignores compiled binaries and build artifacts  |
+| README.md         | Project documentation                          |
+
+### Key Program Files
+
+| Path                    | Topic                                            |
+| ----------------------- | ------------------------------------------------ |
+| TypesOfFunctions/01.c   | With arguments and with return value             |
+| TypesOfFunctions/02.c   | With arguments and without return value          |
+| TypesOfFunctions/03.c   | Without arguments and with return value          |
+| Structure/structure01.c | Filter student records by address                |
+| Structure/structure02.c | Sort books by price (ascending)                  |
+| Structure/structure03.c | Sort student records by percentage (ascending)   |
+| Structure/structure04.c | Enter dynamic student records and filter GPA > 3 |
+| Structure/Structure.c   | Filter employee records by salary range          |
 
 Inside TypesOfFunctions:
 
@@ -124,6 +152,11 @@ Possible future additions:
 ## Contributing
 
 This repository is primarily educational and personal. Small improvements in code clarity, comments, and structure are welcome.
+
+## Author
+
+- Prepared by a Class 12 student while teaching online C programming basics
+- Audience: Class 12 learners and beginner C programmers
 
 ## Acknowledgment
 
