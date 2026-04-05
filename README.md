@@ -16,7 +16,9 @@ The content was originally created for online classes taken by the author while 
 
 ## Current Topics Included
 
-At present, this repository includes examples of function types:
+At present, this repository includes:
+
+### 1) Types of Functions
 
 1. With arguments and with return value
 2. With arguments and without return value
@@ -24,16 +26,33 @@ At present, this repository includes examples of function types:
 
 All examples use the same rectangle area problem so students can compare function styles without changing problem complexity.
 
+### 2) Structure-Based Programs
+
+1. Student records filtered by address
+2. Book data sorted by price (ascending)
+3. Student data sorted by percentage (ascending)
+4. Dynamic student result entry and GPA filtering
+5. Employee records filtered by salary range
+
 ## Folder Structure
 
 - .vscode/: Workspace settings for running C files in VS Code
 - TypesOfFunctions/: Lesson programs on C function types
+- Structure/: Practice programs using structures (records, sorting, filtering)
 
 Inside TypesOfFunctions:
 
 - 01.c: With arguments and with return value
 - 02.c: With arguments and without return value
 - 03.c: Without arguments and with return value
+
+Inside Structure:
+
+- structure01.c: Filter student records by address (KATHMANDU)
+- structure02.c: Sort books by price in ascending order
+- structure03.c: Sort student records by percentage in ascending order
+- structure04.c: Enter n student results and display GPA > 3
+- Structure.c: Filter employee records by salary range
 
 Note:
 
@@ -52,8 +71,16 @@ From the project root:
 
 Universal command (replace `<file>` with any C file name like `01`, `02`, or `03`):
 
-    gcc TypesOfFunctions/<file>.c -o TypesOfFunctions/<file>.exe
-    ./TypesOfFunctions/<file>.exe
+    gcc <path/to/file.c> -o <path/to/output.exe>
+    ./<path/to/output.exe>
+
+Examples:
+
+    gcc TypesOfFunctions/01.c -o TypesOfFunctions/01.exe
+    ./TypesOfFunctions/01.exe
+
+    gcc Structure/structure04.c -o Structure/structure04.exe
+    ./Structure/structure04.exe
 
 If you are using PowerShell, run executables with .\ prefix.
 
@@ -89,7 +116,10 @@ Possible future additions:
 1. Read 01.c and understand argument passing plus return values
 2. Compare 02.c to see output handling inside function
 3. Study 03.c to understand no-argument function style
-4. Modify each program and test different inputs
+4. Move to structure01.c for record input and filtering
+5. Practice sorting logic using structure02.c and structure03.c
+6. Try dynamic input and condition-based output in structure04.c
+7. Modify each program and test different inputs
 
 ## Contributing
 
